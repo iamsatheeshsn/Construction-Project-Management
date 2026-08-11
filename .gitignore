@@ -1,0 +1,28 @@
+# Environment / secrets
+.env
+.env.*
+!.env.example
+**/.env
+!**/.env.example
+
+# Dependencies
+node_modules/
+vendor/
+
+# Build / cache
+dist/
+dist-ssr/
+backend/public/build
+backend/public/hot
+backend/storage/*.key
+*.log
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.sw?
+
+# Local credential docs (keep out of remote)
+demo-credentials.docx
