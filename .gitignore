@@ -23,6 +23,3 @@ Thumbs.db
 .idea/
 .vscode/
 *.sw?
-
-# Local credential docs (keep out of remote)
-demo-credentials.docx
